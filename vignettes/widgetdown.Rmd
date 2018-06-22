@@ -16,14 +16,14 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Vignette widgets
-
 ```{r, echo=FALSE}
 # set seed for reproducible widget id
 if (requireNamespace("htmltools", quietly = TRUE)) {
   htmlwidgets::setWidgetIdSeed(42)
 }
 ```
+
+If you use htmlwidgets in pkgdown, use chunk option `out.width = '100%'` to ensure the widget spans the entire column.
 
 ### leaflet
 
