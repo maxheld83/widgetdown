@@ -3,6 +3,7 @@ Version: 0.0.0.9000
 Title: Test HTML Widgets in Pkgdown
 Description: Test htmlwidgets in pkgdown.
 Authors@R: person("Jay", "Hesselberth", , "jay.hesselberth@gmail.com", c("aut", "cre"))
+URL: https://github.com/jayhesselberth/widgetdown, https://jayhesselberth.github.io/widgetdown/
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
