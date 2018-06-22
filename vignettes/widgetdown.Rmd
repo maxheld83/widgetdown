@@ -38,14 +38,15 @@ library(leaflet)
 )
 ```
 
-### d3heatmap
+### heatmaply
 
-```{r d3, out.width = '100%'}
-library(d3heatmap)
-d3heatmap(mtcars, scale = "column", colors = "Blues")
+```{r heatmaply, out.width = '100%'}
+library(heatmaply)
+heatmaply(mtcars, k_row = 3, k_col = 2)
 ```
 
 ### DT
+
 ```{r dt, out.width = '100%'}
 library(DT)
 datatable(iris)

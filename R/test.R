@@ -17,8 +17,8 @@
 #'     popup="The birthplace of R"
 #'   )
 #'
-#' library(d3heatmap)
-#' d3heatmap(mtcars, scale = "column", colors = "Blues")
+#' library(heatmaply)
+#' heatmaply(mtcars, k_row = 3, k_col = 2)
 #'
 #' library(DT)
 #' datatable(iris)

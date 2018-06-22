@@ -10,7 +10,7 @@ LazyData: true
 ByteCompile: true
 Imports: 
     leaflet,
-    d3heatmap,
+    heatmaply,
     htmltools,
     htmlwidgets,
     DT,
