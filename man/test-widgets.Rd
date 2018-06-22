@@ -8,6 +8,10 @@ Test case: widgets
 }
 \examples{
 
+if (requireNamespace("htmltools", quietly = TRUE)) {
+  htmlwidgets::setWidgetIdSeed(42)
+}
+
 library(leaflet)
 leaflet() \%>\%
   addTiles() \%>\%
