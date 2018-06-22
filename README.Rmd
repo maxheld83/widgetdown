@@ -15,6 +15,8 @@ knitr::opts_chunk$set(
 ```
 # widgetdown
 
+[![Travis build status](https://travis-ci.org/jayhesselberth/widgetdown.svg?branch=master)](https://travis-ci.org/jayhesselberth/widgetdown)
+
 The goal of widgetdown is to test the use of htmlwidgets in a pkgdown website, without bloating the [pkgdown](https://github.com/r-lib/pkgdown) package itself.
 
 Install the development version from [GitHub](https://github.com/) with:
@@ -32,7 +34,13 @@ if (requireNamespace("htmltools", quietly = TRUE)) {
 }
 ```
 
-This page tests the use of the following htmlwidgets in a pkgdown README:
+The package tests the use of htmlwidgets in pkgdown:
+
+* [Home page](https://jayhesselberth.github.io/widgetdown/index.html) (i.e., `README.Rmd` or `index.Rmd`)
+* [Reference topics](https://jayhesselberth.github.io/widgetdown/reference/test-widgets.html) using Rd `@examples`.
+* [Vignettes](https://jayhesselberth.github.io/widgetdown/articles/widget.html)
+
+widgetdown tests the following widgets:
 
 * [`leaflet`](https://github.com/rstudio/leaflet/)
 * [`d3heatmap`](https://github.com/rstudio/d3heatmap)
