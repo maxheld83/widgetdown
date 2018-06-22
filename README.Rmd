@@ -38,7 +38,7 @@ The package tests the use of htmlwidgets in pkgdown:
 
 * [Home page](https://jayhesselberth.github.io/widgetdown/index.html) (i.e., `README.Rmd` or `index.Rmd`)
 * [Reference topics](https://jayhesselberth.github.io/widgetdown/reference/test-widgets.html) using Rd `@examples`.
-* [Vignettes](https://jayhesselberth.github.io/widgetdown/articles/widget.html)
+* [Vignettes](https://jayhesselberth.github.io/widgetdown/articles/widgetdown.html)
 
 widgetdown tests several widgets [available from RStudio](https://www.htmlwidgets.org/showcase_leaflet.html).
 
@@ -55,7 +55,7 @@ library(leaflet)
 )
 ```
 
-### d3heatmap
+### heatmaply
 
 ```{r heatmaply}
 library(heatmaply)
