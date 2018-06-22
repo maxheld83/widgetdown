@@ -16,3 +16,7 @@ Imports:
     DT,
     plotly
 RoxygenNote: 6.0.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
