@@ -14,7 +14,8 @@ Imports:
     htmltools,
     htmlwidgets,
     DT,
-    plotly
+    plotly,
+    DiagrammeR
 RoxygenNote: 6.0.1
 Suggests: 
     knitr,

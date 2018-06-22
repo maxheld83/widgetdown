@@ -29,4 +29,12 @@ plot_ly(midwest,
   color = ~state,
   type = "box"
 )
+
+library(DiagrammeR)
+grViz("
+  digraph {
+  layout = twopi
+  node [shape = circle]
+  A -> {B C D}
+}")
 }

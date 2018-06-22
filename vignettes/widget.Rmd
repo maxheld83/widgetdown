@@ -68,3 +68,13 @@ plot_ly(midwest,
   type = "box"
 )
 ```
+
+```{r diagrammer}
+library(DiagrammeR)
+grViz("
+  digraph {
+    layout = twopi
+    node [shape = circle]
+    A -> {B C D} 
+  }")
+```
