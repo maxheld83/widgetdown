@@ -25,7 +25,7 @@ if (requireNamespace("htmltools", quietly = TRUE)) {
 
 If you use htmlwidgets in pkgdown, use chunk option `out.width = '100%'` to ensure the widget spans the entire column.
 
-### leaflet
+## leaflet
 
 ```{r leaflet, out.width = '100%'}
 library(leaflet)
@@ -38,21 +38,21 @@ library(leaflet)
 )
 ```
 
-### heatmaply
+## heatmaply
 
 ```{r heatmaply, out.width = '100%'}
 library(heatmaply)
 heatmaply(mtcars, k_row = 3, k_col = 2)
 ```
 
-### DT
+## DT
 
 ```{r dt, out.width = '100%'}
 library(DT)
 datatable(iris)
 ```
 
-### plotly
+## plotly
 
 ```{r plotly, out.width = '100%'}
 library(plotly)
@@ -62,6 +62,8 @@ plot_ly(midwest,
   type = "box"
 )
 ```
+
+## DiagrammeR
 
 ```{r diagrammer, out.width = '100%'}
 library(DiagrammeR)
