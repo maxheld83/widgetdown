@@ -40,12 +40,7 @@ The package tests the use of htmlwidgets in pkgdown:
 * [Reference topics](https://jayhesselberth.github.io/widgetdown/reference/test-widgets.html) using Rd `@examples`.
 * [Vignettes](https://jayhesselberth.github.io/widgetdown/articles/widget.html)
 
-widgetdown tests the following widgets:
-
-* [`leaflet`](https://github.com/rstudio/leaflet/)
-* [`d3heatmap`](https://github.com/rstudio/d3heatmap)
-* [`DT`](https://github.com/rstudio/DT)
-* [`plotly`](https://plot.ly/r/)
+widgetdown tests several widgets [available from RStudio](https://www.htmlwidgets.org/showcase_leaflet.html).
 
 ### leaflet
 
