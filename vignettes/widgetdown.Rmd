@@ -25,16 +25,9 @@ if (requireNamespace("htmltools", quietly = TRUE)) {
 }
 ```
 
-This page tests the use of the following htmlwidgets in a pkgdown README:
-
-* [`leaflet`](https://github.com/rstudio/leaflet/)
-* [`d3heatmap`](https://github.com/rstudio/d3heatmap)
-* [`DT`](https://github.com/rstudio/DT)
-* [`plotly`](https://plot.ly/r/)
-
 ### leaflet
 
-```{r leaflet}
+```{r leaflet, out.width = '100%'}
 library(leaflet)
   leaflet() %>%
   addTiles() %>%
@@ -47,20 +40,20 @@ library(leaflet)
 
 ### d3heatmap
 
-```{r d3}
+```{r d3, out.width = '100%'}
 library(d3heatmap)
 d3heatmap(mtcars, scale = "column", colors = "Blues")
 ```
 
 ### DT
-```{r dt}
+```{r dt, out.width = '100%'}
 library(DT)
 datatable(iris)
 ```
 
 ### plotly
 
-```{r plotly}
+```{r plotly, out.width = '100%'}
 library(plotly)
 plot_ly(midwest,
   x = ~percollege,
@@ -69,7 +62,7 @@ plot_ly(midwest,
 )
 ```
 
-```{r diagrammer}
+```{r diagrammer, out.width = '100%'}
 library(DiagrammeR)
 grViz("
   digraph {
