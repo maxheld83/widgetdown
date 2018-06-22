@@ -16,21 +16,55 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Vignette widget
+# Vignette widgets
 
 ```{r, echo=FALSE}
 # set seed for reproducible widget id
 if (requireNamespace("htmltools", quietly = TRUE)) {
   htmlwidgets::setWidgetIdSeed(42)
 }
+```
 
+This page tests the use of the following htmlwidgets in a pkgdown README:
+
+* [`leaflet`](https://github.com/rstudio/leaflet/)
+* [`d3heatmap`](https://github.com/rstudio/d3heatmap)
+* [`DT`](https://github.com/rstudio/DT)
+* [`plotly`](https://plot.ly/r/)
+
+### leaflet
+
+```{r leaflet}
 library(leaflet)
-
-leaflet() %>%
+  leaflet() %>%
   addTiles() %>%
   addMarkers(
-    lng=174.768,
-    lat=-36.852,
-    popup="The birthplace of R"
-  )
+  lng=174.768,
+  lat=-36.852,
+  popup="The birthplace of R"
+)
+```
+
+### d3heatmap
+
+```{r d3}
+library(d3heatmap)
+d3heatmap(mtcars, scale = "column", colors = "Blues")
+```
+
+### DT
+```{r dt}
+library(DT)
+datatable(iris)
+```
+
+### plotly
+
+```{r plotly}
+library(plotly)
+plot_ly(midwest,
+  x = ~percollege,
+  color = ~state,
+  type = "box"
+)
 ```
