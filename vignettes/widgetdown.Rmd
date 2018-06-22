@@ -23,7 +23,14 @@ if (requireNamespace("htmltools", quietly = TRUE)) {
 }
 ```
 
-If you use htmlwidgets in pkgdown, use chunk option `out.width = '100%'` to ensure the widget spans the entire column.
+# Widgets in pkgdown sites
+
+htmlwidgets in pkgdown sites need special treatment for some site components.
+
+* If you include widgets in a `README.Rmd`, add `always_allow_html: yes` to the YAML front matter. You'll get a error if you try to knit the document without that option.
+
+* If you include widgets in your vignettes, use chunk option `out.width = '100%'` to ensure the widget spans the entire container.
+
 
 ## leaflet
 
