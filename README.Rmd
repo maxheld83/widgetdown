@@ -25,7 +25,7 @@ Install the development version from [GitHub](https://github.com/) with:
 # install.packages("devtools")
 devtools::install_github("jayhesselberth/widgetdown")
 ```
-## README widgets
+## Widgets in pkgdown sections
 
 ```{r, echo=FALSE}
 # set seed for reproducible widget id
