@@ -91,6 +91,15 @@ datatable(iris)
 
 <img src="man/figures/README-dt-1.png" width="100%" />
 
+### DT - fillContainer
+
+``` r
+library(DT)
+datatable(iris, fillContainer = TRUE)
+```
+
+<img src="man/figures/README-dt_fill-1.png" width="100%" />
+
 ### plotly
 
 ``` r

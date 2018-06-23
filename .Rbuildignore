@@ -1,6 +1,7 @@
 ^widgetdown\.Rproj$
 ^\.Rproj\.user$
-^_pkgdown\.yml$
+^pkgdown$
 ^docs$
 ^README\.Rmd$
 ^\.travis\.yml$
+^_pkgdown\.yml$

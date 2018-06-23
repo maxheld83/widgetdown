@@ -62,10 +62,16 @@ library(heatmaply)
 heatmaply(mtcars, k_row = 3, k_col = 2)
 ```
 
-### DT
+### DT 
 ```{r dt}
 library(DT)
 datatable(iris)
+```
+
+### DT - fillContainer
+```{r dt_fill}
+library(DT)
+datatable(iris, fillContainer = TRUE)
 ```
 
 ### plotly

@@ -1,4 +1,0 @@
-reference:
-  - title: Regression tests
-    contents:
-    - starts_with("test", internal = TRUE)
