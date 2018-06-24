@@ -4,7 +4,6 @@
 #' @keywords internal
 #' @family tests
 #' @examples
-#'
 #' if (requireNamespace("htmltools", quietly = TRUE)) {
 #'   htmlwidgets::setWidgetIdSeed(42)
 #' }
@@ -111,13 +110,6 @@ NULL
 #' }
 #' answer # should be 42
 NULL
-
-
-# Used for testing
-#' @keywords internal
-#' @importFrom MASS addterm
-#' @export
-MASS::addterm
 
 #' Test case: params
 #'

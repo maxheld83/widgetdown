@@ -91,6 +91,15 @@ datatable(iris)
 
 <img src="man/figures/README-dt-1.png" width="100%" />
 
+### DT - autoWidth
+
+``` r
+library(DT)
+datatable(iris, options = list(autoWidth = TRUE))
+```
+
+<img src="man/figures/README-dt_width-1.png" width="100%" />
+
 ### DT - fillContainer
 
 ``` r
