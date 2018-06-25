@@ -16,7 +16,11 @@ knitr::opts_chunk$set(
 )
 ```
 
-Tables with `DT::datatable()` are not rendering correctly. Here's a bunch of different things I've tried.
+Tables with `DT::datatable()` are not rendering correctly in pkgdown.
+
+* The table from the top example renders OK as an Rmarkdown > HTML, so I'm thinking that the issue has something to do with the container layout used in pkgdown.
+
+Here's a bunch of different things I've tried.
 
 ### DT
 
