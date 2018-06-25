@@ -82,33 +82,6 @@ heatmaply(mtcars, k_row = 3, k_col = 2)
 
 <img src="man/figures/README-heatmaply-1.png" width="100%" />
 
-### DT
-
-``` r
-library(DT)
-datatable(iris)
-```
-
-<img src="man/figures/README-dt-1.png" width="100%" />
-
-### DT - autoWidth
-
-``` r
-library(DT)
-datatable(iris, options = list(autoWidth = TRUE))
-```
-
-<img src="man/figures/README-dt_width-1.png" width="100%" />
-
-### DT - fillContainer
-
-``` r
-library(DT)
-datatable(iris, fillContainer = TRUE)
-```
-
-<img src="man/figures/README-dt_fill-1.png" width="100%" />
-
 ### plotly
 
 ``` r

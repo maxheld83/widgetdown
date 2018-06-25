@@ -20,9 +20,6 @@
 #' library(heatmaply)
 #' heatmaply(mtcars, k_row = 3, k_col = 2)
 #'
-#' library(DT)
-#' datatable(iris)
-#'
 #' library(plotly)
 #' plot_ly(midwest,
 #'   x = ~percollege,

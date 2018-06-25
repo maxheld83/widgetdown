@@ -1,0 +1,46 @@
+---
+title: "Debugging DT"
+author: "Jay Hesselberth"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{datatables}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Tables with `DT::datatable()` are not rendering correctly. Here's a bunch of different things I've tried.
+
+### DT
+
+```{r dt}
+library(DT)
+datatable(iris)
+```
+
+### DT - autoWidth
+
+```{r dt_width}
+library(DT)
+datatable(iris, options = list(autoWidth = TRUE))
+```
+
+### DT - fillContainer
+```{r dt_fill}
+library(DT)
+datatable(iris, fillContainer = TRUE)
+```
+
+### DT - both fillContainer and autoWidth
+
+```{r dt_width_fill}
+library(DT)
+datatable(iris, fillContainer = TRUE, options = list(autoWidth = TRUE))
+```

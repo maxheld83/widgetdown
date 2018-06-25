@@ -62,26 +62,6 @@ library(heatmaply)
 heatmaply(mtcars, k_row = 3, k_col = 2)
 ```
 
-### DT
-
-```{r dt}
-library(DT)
-datatable(iris)
-```
-
-### DT - autoWidth
-
-```{r dt_width}
-library(DT)
-datatable(iris, options = list(autoWidth = TRUE))
-```
-
-### DT - fillContainer
-```{r dt_fill}
-library(DT)
-datatable(iris, fillContainer = TRUE)
-```
-
 ### plotly
 
 ```{r plotly}

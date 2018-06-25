@@ -52,13 +52,6 @@ library(heatmaply)
 heatmaply(mtcars, k_row = 3, k_col = 2)
 ```
 
-## DT
-
-```{r dt, out.width = '100%'}
-library(DT)
-datatable(iris)
-```
-
 ## plotly
 
 ```{r plotly, out.width = '100%'}
